@@ -1,1 +1,3 @@
 javac Main.java
+
+jar --create --file Application.jar Main.class
