@@ -1,7 +1,9 @@
-	public class Persondetails{
+	public class UIPersondetails{
 
 public String firstName;
 public String lastName;
 
 
-}
+        public void run() {
+        }
+    }

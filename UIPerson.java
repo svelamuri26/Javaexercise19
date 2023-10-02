@@ -1,9 +1,12 @@
-public class Userinterface {
+public class UIPerson {
+
+    public static void run() {
+    }
 
     /**
      *  interact with the user 
      */
-    public void showui(Person person) {
+    public void showui(UIPersondetails person) {
 
         System.out.println("What do you want to do?" );
         System.out.println("  1. Show person's name" );
@@ -15,11 +18,11 @@ public class Userinterface {
         while( !command.equals("9")) {
 
             if( command.equals("1")) {
-                System.out.println("Hello " + person.name );
+                System.out.println("Hello " + person.firstName + person.lastName);
             }
             if( command.equals("2")) { 
                 System.out.print("What's your name? " );
-                person.name = System.console().readLine();
+                person.firstName = System.console().readLine();
             }
             System.out.println("What do you want to do?" );
             System.out.println("  1. Show person's name" );

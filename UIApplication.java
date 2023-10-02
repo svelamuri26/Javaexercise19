@@ -1,4 +1,4 @@
-public class Application {
+public class UIApplication {
 
     /**
      *  Create a user interface
@@ -6,10 +6,13 @@ public class Application {
      *
      *  Use user interface to show the data  
      */
-    public void run() {
-        Userinterface userinterface = new Userinterface();
-        Person person = new Person();
+    public static void run() {
+        UIApplication userinterface = new UIApplication();
+        UIPersondetails person = new UIPersondetails();
 
         userinterface.showui( person );
+    }
+
+    private void showui(UIPersondetails person) {
     }
 }
