@@ -6,7 +6,7 @@ public class UIApplication {
      *
      *  Use user interface to show the data  
      */
-    public static void run() {
+    public static void main() {
         UIApplication userinterface = new UIApplication();
         UIPersondetails person = new UIPersondetails();
 

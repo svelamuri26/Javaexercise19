@@ -1,12 +1,8 @@
 public class UIPerson {
-
-    public static void run() {
-    }
-
     /**
      *  interact with the user 
      */
-    public void showui(UIPersondetails person) {
+    public static void showui(UIPersondetails person) {
 
         System.out.println("What do you want to do?" );
         System.out.println("  1. Show person's name" );
@@ -30,5 +26,8 @@ public class UIPerson {
             System.out.println("  9. Leave the program ");
             command = System.console().readLine();
         }
+    }
+
+    public static void showui() {
     }
 }
